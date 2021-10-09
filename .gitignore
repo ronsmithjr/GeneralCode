@@ -1,4 +1,6 @@
-**/BusinessDates/*.pdb
-**/BusinessDates/*.dll
-**/BusinessDates/*.deps.json
-
+**/BusinessDates/bin/
+**/BusinessDates/bin/
+**/BusinessDates/vs/
+**/BusinessDates/obj/
+**/BusinessDates/obj/Debug/netcoreapp3.1/
+BusinessDates/*.user

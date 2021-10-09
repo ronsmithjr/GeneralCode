@@ -10,4 +10,3 @@ D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates
 D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.dll
 D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.pdb
 D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.genruntimeconfig.cache
-D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.csprojAssemblyReference.cache

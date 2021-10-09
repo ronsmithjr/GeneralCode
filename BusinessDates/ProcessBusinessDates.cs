@@ -27,7 +27,7 @@ namespace BusinessDates
 
             do
             {
-                tmpBusDate = SkipWeekends(tmpBusDate);
+                tmpBusDate = SkipToMonday(tmpBusDate);
                 tmpBusDate = tmpBusDate.AddDays(businessDays);
                 tmpBusDate = SkipHolidays(tmpBusDate);
             } while (IsWeekend(ref tmpBusDate));
@@ -37,7 +37,7 @@ namespace BusinessDates
             return retVal;
         }
 
-        internal DateTime SkipWeekends(DateTime _date)
+        internal DateTime SkipToMonday(DateTime _date)
         {
             switch (_date.DayOfWeek)
             {
@@ -54,12 +54,17 @@ namespace BusinessDates
             }
             return _date;
         }
+        /// <summary>
+        /// Assumption  You cant have 2 holidays in a row.
+        /// </summary>
+        /// <param name="_date"></param>
+        /// <returns></returns>
         internal DateTime SkipHolidays(DateTime _date)
         {
             if (secHolidays.IsSecHoliday(_date))
             {
                 _date = _date.AddDays(1);
-                _date = SkipWeekends(_date);
+                _date = SkipToMonday(_date);
             }
             return _date;
         }
@@ -68,7 +73,7 @@ namespace BusinessDates
         {
             if (_date.DayOfWeek == DayOfWeek.Saturday || _date.DayOfWeek == DayOfWeek.Sunday)
             {
-                _date = SkipWeekends(_date);
+                _date = SkipToMonday(_date);
                 return true;
             }
             return false;
