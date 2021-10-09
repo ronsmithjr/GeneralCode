@@ -29,7 +29,7 @@ namespace BusinessDates
                         DateTime date = Convert.ToDateTime(args[1]);
                         int days = Convert.ToInt32(args[2]);
                         var data = AddBusinesDays(date, days);
-                        Console.WriteLine($"Old Date: {date} \t\t New Date: {data}");
+                        Console.WriteLine($"Old Date: {date} \t\t\t New Date: {data} {data.DayOfWeek}");
                         break;
                     default:
                         Console.WriteLine(Usage);
