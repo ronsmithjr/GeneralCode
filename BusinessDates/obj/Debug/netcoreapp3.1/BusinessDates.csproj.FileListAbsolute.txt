@@ -1,0 +1,12 @@
+D:\source\Github\GeneralCode\BusinessDates\bin\Debug\netcoreapp3.1\BusinessDates.exe
+D:\source\Github\GeneralCode\BusinessDates\bin\Debug\netcoreapp3.1\BusinessDates.deps.json
+D:\source\Github\GeneralCode\BusinessDates\bin\Debug\netcoreapp3.1\BusinessDates.runtimeconfig.json
+D:\source\Github\GeneralCode\BusinessDates\bin\Debug\netcoreapp3.1\BusinessDates.runtimeconfig.dev.json
+D:\source\Github\GeneralCode\BusinessDates\bin\Debug\netcoreapp3.1\BusinessDates.dll
+D:\source\Github\GeneralCode\BusinessDates\bin\Debug\netcoreapp3.1\BusinessDates.pdb
+D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.AssemblyInfoInputs.cache
+D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.AssemblyInfo.cs
+D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.csproj.CoreCompileInputs.cache
+D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.dll
+D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.pdb
+D:\source\Github\GeneralCode\BusinessDates\obj\Debug\netcoreapp3.1\BusinessDates.genruntimeconfig.cache
